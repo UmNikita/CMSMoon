@@ -39,10 +39,12 @@ header {
     background-color: #3d3d3d;
 }
 .side-menu-element {
+    display: block;
     width: 100%;
     height: 35px;
     padding-top: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 .side-menu-element:hover {
     background-color: #2e2e2e;
@@ -53,4 +55,8 @@ header {
 }
 .container {
     display: flex;
+}
+.page {
+    background-color: #eef0f6;
+    width: 96%;
 }

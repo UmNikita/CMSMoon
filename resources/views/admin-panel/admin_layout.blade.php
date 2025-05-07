@@ -16,27 +16,24 @@
         </header>
         <div class="container">
             <div class="side-menu">
-                <div class="side-menu-element">
+                <a href="{{route('admin.main')}}" class="side-menu-element">
                     <p>Главная</p>
-                </div class="side-menu-element">
-                <div class="side-menu-element">
+                </a>
+                <a href="{{route('admin.settings')}}" class="side-menu-element">
                     <p>Настройки</p>
-                </div>
-                <div class="side-menu-element">
+                </a>
+                <a href="{{route('admin.content')}}" class="side-menu-element">
                     <p>Контент</p>
-                </div>
-                <div class="side-menu-element">
+                </a>
+                <a href="{{route('admin.media')}}" class="side-menu-element">
                     <p>Медиа</p>
-                </div>
-                <div class="side-menu-element">
+                </a>
+                <a href="{{route('admin.pages')}}" class="side-menu-element">
                     <p>Страницы</p>
-                </div>
-                <div class="side-menu-element">
-                    <p>Комментарии</p>
-                </div>
-                <div class="side-menu-element">
+                </a>
+                <a href="{{route('admin.users')}}" class="side-menu-element">
                     <p>Пользователи</p>
-                </div>
+                </a>
             </div>
             <div class="page">@yield('page')</div>
         </div>

@@ -1,0 +1,75 @@
+.container-page {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 50px;
+    width: 96%;
+}
+.page-title {
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+}
+.page-title p {
+    font-size: 36px;
+}
+.page-container {
+    display: flex;
+}
+.page-catalog {
+    height: 800px;
+    width: 65%;
+    margin-top: 25px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: white;
+    overflow: auto;
+}
+.page-description {
+    height: 800px;
+    width: 20%;
+    margin-top: 25px;
+    margin-left: 50px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: white;
+}
+.page-catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.page-catalog-el {
+    height: 175px;
+    width: 150px;   
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.page-catalog-el-img {
+    background-color: rgb(145, 145, 145);
+    height: 150px;
+    width: 150px;
+}
+.page-catalog-el-txt {
+    width: 150px;
+    margin-top: 5px;
+}
+.page-description-title {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.page-description-subt {
+    margin-top: 25px;
+    padding-top: 25px;
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+}
+.page-description-row {
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.page-description-row-l {
+    margin-left: 15px;
+    width: 50%;
+    color: rgb(81, 81, 81);
+}
